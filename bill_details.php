@@ -1,6 +1,6 @@
 <?php
 require_once 'config/database.php';
-require_once 'auth_check.php';
+require_once 'config/auth_check.php';
 
 // Get bill ID from URL
 $bill_id = isset($_GET['id']) ? $_GET['id'] : null;

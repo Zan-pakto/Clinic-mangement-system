@@ -1,6 +1,6 @@
 <?php
 require_once 'config/database.php';
-require_once 'auth_check.php';
+require_once 'config/auth_check.php';
 
 // Check if user is logged in
 if (!isset($_SESSION['doctor_id'])) {
